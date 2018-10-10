@@ -1,0 +1,23 @@
+@import 'navbar.css';
+@import 'index.css';
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+}
+
+body a {
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+body a:hover {
+  color: rgb(255, 51, 51);
+}
+
+.inline li {
+  display: inline-block;
+}

@@ -1,0 +1,8 @@
+{% extends 'layout/default.html'%}
+{% block title %} Oups - {{ super() }}{% endblock %}
+
+{% block body %}
+<div>
+  <p>On s'est perdu ? <a href="{{ url_for('index')}}">Retourner à l'accueil</a></p>
+</div>
+{% endblock %}

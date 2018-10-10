@@ -1,0 +1,16 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Flask	../app.py	/^from flask import Flask, render_template$/;"	kind:namespace	line:1
+app	../app.py	/^app = Flask(__name__)$/;"	kind:variable	line:3
+app.py	../app.py	1;"	kind:file	line:1
+contact	../app.py	/^def contact():$/;"	kind:function	line:22
+index	../app.py	/^def index():$/;"	kind:function	line:6
+page_not_found	../app.py	/^def page_not_found(error):$/;"	kind:function	line:27
+projets	../app.py	/^def projets():$/;"	kind:function	line:10
+radio	../app.py	/^def radio():$/;"	kind:function	line:18
+rec21	../app.py	/^def rec21():$/;"	kind:function	line:14
+render_template	../app.py	/^from flask import Flask, render_template$/;"	kind:namespace	line:1
