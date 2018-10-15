@@ -1,64 +1,43 @@
-.header {
-  z-index: 10;
-  margin-top: -10px;
-}
-
-.navbar {
-  height: 50px;
-  width: -webkit-fill-available;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  position: fixed;
-  border-bottom: 1px solid rgba(0,0,0,0.05);
-  background-color: rgba(255,255,255,0.99);
-  z-index: 10;
-}
-
-.logo {
-  margin: 0;
+.navbar-logo {
+  border: 1px solid red;
   transition: 0.3s;
   z-index: 12;
-  padding: 0px 10px;
 }
 
-.logo img {
-  width: 20%;
-}
-.logo h1 {
-  font-size: 1em;
+.navbar-logo img {
+  width: 8%;
 }
 
-.logo a {
+.navbar-logo a {
   color: black;
 }
-.logo a:hover {
+.navbar-logo a:hover {
   color: black;
 }
 
-.menu {
+.navbar-menu {
+  border: 1px solid yellowgreen;
   font-size: 0.6em;
 }
-.inline {
-  padding-inline-start: 0px;
-}
-.menu ul li a {
+
+.navbar-menu ul li a {
   color: darkgrey;
   font-weight: lighter;
 }
-.menu ul li a:hover {
+.navbar-menu ul li a:hover {
   color: red;
 }
 
+.navbar-btn {
+  display: none;
+}
+
 .contact-btn {
-  background-color: rgb(236, 43, 43);
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 16px;
   padding-right: 16px;
   font-size: 14px;
-  -webkit-box-shadow: 0 1px 2px rgba(204, 41, 41, 0.1), 0 2px 4px rgba(204, 41, 55, 0.2);
-  box-shadow: 0 1px 2px rgba(204, 41, 55, 0.1), 0 2px 4px rgba(204, 41, 55, 0.2);
 }
 .contact-btn a {
   color: white;
@@ -68,10 +47,8 @@
 }
 
 @media (min-width: 800px) {
-  .menu {
-    font-size: 1em;
-  }
-  .menu li {
-    margin: 0px 50px 0px 50px;
+  .navbar-btn {
+    border: 1px solid yellow;
+    display: block;
   }
 }

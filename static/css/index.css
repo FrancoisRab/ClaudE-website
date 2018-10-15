@@ -1,3 +1,66 @@
-.head {
-  padding-top: 30px;
+/* HEADER */
+
+.header-title h1 {
+  font-size: 40px;
+}
+
+.header-subtitle h2 {
+  font-weight: lighter;
+}
+
+#center-btn-header {
+  width: 30%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.header-images img {
+  display: none;
+}
+
+.header-onair {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  margin-left: -25px;
+}
+
+.img-onair img {
+  width: 50%;
+}
+
+.text-onair {
+  font-size: 10px;
+  margin-left: -15px;
+}
+
+/* FIRST PART "AGENCE" */
+.agency-content {
+  padding-top: 50px;
+}
+
+.agency-content h2 {
+  font-size: 2em;
+}
+
+.agency-content p {
+  font-weight: 100;
+}
+
+.agency-flash {
+  border: 1px solid darkgray;
+  border-radius: 5px;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.agency-btn {
+  margin-top: 50px;
+}
+#btn-agency {
+  width: 40%;
+  margin: 0 auto;
+  padding: 10px;
 }
