@@ -3,12 +3,17 @@
 @import 'shared.css';
 @import 'footer.css';
 @import 'agence.css';
+@import 'radio.css';
 
 body {
   font-family: 'Lato', sans-serif;
 }
 
 h1 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.poppins {
   font-family: 'Poppins', sans-serif;
 }
 

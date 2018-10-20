@@ -11,11 +11,16 @@
       <img src="static/images/app.jpg" alt="">
     </div>
     <div class="agency-skills-txt font-lighter">
-      <h3>Ce que nous faisons:</h3>
+      <h3 class="poppins">Ce que nous faisons:</h3>
       <p>De la conception de programmes et contenus performants à l’expertise musicale, de la création artistique et éditoriale
-      au marketing et à la communication, de l’organisation et du coaching de votre équipe à l’étude de marché
-      concurrentielle… Votre marque est unique, l’agence REC21 crée avec vous une identité sur mesure !</p>
+        au marketing et à la communication, de l’organisation et du coaching de votre équipe à l’étude de marché
+        concurrentielle… Votre marque est unique, l’agence REC21 crée avec vous une identité sur mesure !</p>
+      </div>
     </div>
+  <div class="agency-btn-page">
+    <a href="{{url_for('contact')}}">
+      <div class="btn" id="btn-agency">Contactez-moi</div>
+    </a>
   </div>
   <div class="agency-list">
     <div class="agency-skills-txt font-lighter">
@@ -27,13 +32,51 @@
         <li>La création d’une radio digitale</li>
         <li>Le management artistique</li>
       </ul>
-      <div class="agency-skills-img center-img">
-        <img src="static/images/app.jpg" alt="">
-      </div>
+    </div>
+    <div class="agency-skills-img center-img">
+      <img src="static/images/app.jpg" alt="">
     </div>
   </div>
 </div>
-<div class="presentation">
+<div class="presentation font-lighter padding-top">
+  <div class="presentation-title padding-top">
+    <div class="presentation-avatar">
+      <img src="static/images/avatar.png" alt="">
+    </div>
+    <div class="presentation-headtitle poppins">
+      <h2>NOM PRENOM</h2>
+      <h3>FONDATEUR</h3>
+    </div>
+  </div>
+  <p>
+  Ancien dirigeant d’NRJ Group et Directeur d’antenne de Chérie FM, il a porté la station à 4.5% d’AC et 3% de PDA.
 
+  Durant plus de 20 ans, il a occupé tous les postes opérationnels et stratégiques de la radio en Local et en National :
+  Animateur, Planificateur, Producteur, Chargé de communication et promotion, Responsable du réseau, Directeur adjoint
+  aux programmes avec de nombreux succès :
+  </p>
+  <ul>
+    <li>Le développement des audiences et de la marque </li>
+    <li>Les mornings locaux de Chérie FM (6.5% d’AC en 2004 record de la station) </li>
+    <li>La conception de podcasts et la programmation du bouquet digital dès 2006 </li>
+    <li>La synergie et le management des équipes nationales - locales </li>
+    <li>La direction du marketing (antenne, TV, web, digital, print, réseaux sociaux) </li>
+    <li>La création d’évènements culturels avec l’industrie musicale et les régies </li>
+    <li>Les relations avec les décideurs et les institutionnels au cœur des régions…
+    permettent une expertise de chaque métier et une polyvalence de compétences.</li>
+  </ul>
+  <p>
+  Professionnel direct, créatif et dynamique… Passionné par les médias, la radio, la musique, les artistes, le son, le
+  digital et les nouveaux modes de consommations, il reste attaché aux territoires car c’est en équipe que se font les
+  plus beaux succès !
+  Avoir confiance, c’est se parler, se rencontrer.
+  </p>
+</div>
+<div class="logos-content txt-align padding-top">
+  <ul class="inline">
+    <li><a href="/"><img src="" alt=""></a>LOGO</li>
+    <li><a href="/"><img src="" alt=""></a>LOGO 2</li>
+    <li><a href="/"><img src="" alt=""></a>LOGO 3</li>
+  </ul>
 </div>
 {% endblock %}

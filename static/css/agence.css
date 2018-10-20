@@ -6,3 +6,26 @@
 .agency-skills-txt h3 {
   margin-bottom: -10px;
 }
+
+.agency-btn-page {
+  padding: 10px;
+}
+
+.presentation-title {
+  display: flex;
+  align-items: center;
+}
+
+.presentation-avatar img {
+  width: 40%;
+  border-radius: 50px;
+}
+
+.presentation-headtitle {
+  margin-left: -70px;
+  line-height: 8px;
+}
+
+.presentation ul li {
+  font-weight: lighter;
+}

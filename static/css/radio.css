@@ -1,0 +1,8 @@
+.flashbox {
+  width: 90%;
+  border: 1px solid;
+  box-shadow: 10px 11px red;
+}
+.flashbox p {
+  padding-left: 15px;
+}
