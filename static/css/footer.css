@@ -1,8 +1,16 @@
+.headline-footer {
+  color: black;
+}
+
 .footer-content {
   text-align: center;
+  background-color: black;
 }
 .footer-content a {
   color: white;
+}
+.footer-text h2 {
+  padding-top: 20px;
 }
 
 .footer-text p {

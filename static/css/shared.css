@@ -20,3 +20,13 @@
 .txt-align {
   text-align: center;
 }
+
+.font-lighter p {
+  font-weight: 100;
+}
+
+.center-img img {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}

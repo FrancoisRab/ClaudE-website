@@ -2,6 +2,7 @@
 @import 'index.css';
 @import 'shared.css';
 @import 'footer.css';
+@import 'agence.css';
 
 body {
   font-family: 'Lato', sans-serif;
@@ -18,6 +19,11 @@ body a {
 
 body a:hover {
   color: rgb(255, 51, 51);
+}
+
+.headline-footer {
+  text-align: center;
+  font-size: 10px;
 }
 
 /* Mobile grid */
@@ -48,7 +54,6 @@ body a:hover {
 .footer {
   grid-column: 1/2;
   grid-row: 3/4;
-  background-color: black;
   color: white;
   margin-top: 50px;
 }

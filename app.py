@@ -10,9 +10,9 @@ def index():
 def projets():
     return render_template('pages/projets.html')
 
-@app.route('/rec21')
-def rec21():
-    return render_template('pages/rec21.html')
+@app.route('/agence')
+def agence():
+    return render_template('pages/agence.html')
 
 @app.route('/radio')
 def radio():
