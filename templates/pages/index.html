@@ -1,41 +1,42 @@
 {% extends 'layout/default.html' %}
 
 {% block body %}
-<div class="header-content txt-align">
-  <div class="header-title">
-    <h1>REC21</h1>
-  </div>
-  <div class="header-subtitle">
-    <h2>Nous sommes une agence de conseil média indépendante
-      et professionnelle.</h2>
-  </div>
-  <div class="header-btn">
-    <a href="{{url_for('contact')}}">
-      <div class="btn" id="center-btn-header">Contact</div>
-    </a>
-  </div>
-  <div class="header-onair">
-    <div class="img-onair">
-      <img src="static/images/online.png" alt="logo">
+<div class="grid-index">
+  <div class="header-content txt-align">
+    <div class="header-title">
+      <h1>REC21</h1>
     </div>
-    <div class="text-onair">
-      <p><strong>Disponibilité:</strong> A l'écoute de votre projet</p>
+    <div class="header-subtitle">
+      <h2>Nous sommes une agence de conseil média indépendante
+        et professionnelle.</h2>
+    </div>
+    <div class="header-btn">
+      <a href="{{url_for('contact')}}">
+        <div class="btn" id="center-btn-header">Contact</div>
+      </a>
+    </div>
+    <div class="header-onair">
+      <div class="img-onair">
+        <img src="static/images/online.png" alt="logo">
+      </div>
+      <div class="text-onair">
+        <p><strong>Disponibilité:</strong> A l'écoute de votre projet</p>
+      </div>
     </div>
   </div>
-</div>
-<div class="header-images">
-  <img src="static/images/rec21_fake_logo.png" alt="logo">
-</div>
-
-<div class="agency">
+  <div class="header-images">
+    <img src="static/images/rec21_fake_logo.png" alt="logo">
+  </div>
+  <div class="agency-title">
+    <h2 class="poppins">L'agence</h2>
+  </div>
   <div class="agency-content txt-align">
-    <h2>L'agence</h2>
     <h3>Ce que nous faisons</h3>
     <p>De la conception de programmes et contenus performants à l’expertise musicale, de la création artistique et éditoriale
     au marketing et à la communication, de l’organisation et du coaching de votre équipe à l’étude de marché
     concurrentielle… Votre marque est unique, l’agence <span class="txt-red">REC21</span> crée avec vous une identité sur mesure !</p>
   </div>
-  <div class="agency-flash txt-align">
+  <div class="agency-flash txt-align flashbox">
     <p>Vous êtes une radio locale, régionale, nationale ou digitale.<br>
     Vous voulez le regard objectif d’un professionnel et une relation de confiance.<br>
     Vous souhaitez être accompagné avec des propositions opérationnelles et efficaces.</p>
