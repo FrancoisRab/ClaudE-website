@@ -54,16 +54,20 @@
   margin-top: 50px;
 }
 
-.agency-btn {
+.agency-index-btn {
   margin-top: 50px;
 }
 
-#btn-agency {
-  width: 40%;
-  margin: 0 auto;
+
+.btn-index {
   padding: 10px;
+  margin: 0px 90px;
 }
 
+/*
+margin: 0 auto;
+width: 40%;
+*/
 
 @media (min-width: 800px) {
   .grid-index {
@@ -72,17 +76,15 @@
     grid-template-rows: 1fr auto auto;
   }
   .header-content {
-    margin-top: 100px;
     grid-column: 2/3;
     grid-row: 1/2;
   }
   .header-images img {
     display: block;
-    width: 80%;
-    padding-left: 40px;
+    width: 350px;
+    padding-left: 120px;
   }
   .header-images {
-    margin-top: 100px;
     grid-column: 3/4;
     grid-row: 1/2;
   }
@@ -127,16 +129,18 @@
     grid-column: 3/4;
     grid-row: 3/4;
     margin-top: 10px;
+    margin-bottom: 50px;
     padding: 10px;
   }
 
-  .agency-btn {
+  .agency-index-btn {
     grid-column: 3/4;
     grid-row: 2/3;
     padding-top: 110px;
+    display: flex;
+    justify-content: flex-end;
   }
-
-  #btn-agency {
-    margin: 0px 0px 0px 230px;
+  .btn-index {
+    margin: 0px;
   }
 }
