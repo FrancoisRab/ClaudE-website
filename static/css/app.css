@@ -49,7 +49,6 @@ body a:hover {
 .content-grid {
   grid-column: 1/2;
   grid-row: 2/3;
-  margin-top: 100px;
 }
 
 .footer {
@@ -65,5 +64,8 @@ body a:hover {
   .navbar-grid {
     position: fixed;
     margin: -15px;
+  }
+  .content-grid {
+    margin-top: 100px;
   }
 }

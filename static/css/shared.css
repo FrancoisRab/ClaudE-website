@@ -21,6 +21,10 @@
   text-align: center;
 }
 
+.txt-align-left {
+  text-align: left;
+}
+
 .font-lighter p {
   font-weight: 100;
 }
