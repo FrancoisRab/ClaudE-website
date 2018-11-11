@@ -11,16 +11,14 @@
     <title> {% block title %} REC21 {% endblock %} </title>
   </head>
   <body>
-    <div class="display-grid">
-      <header class="navbar-grid">
-        {% include 'layout/shared/_navbar.html' %}
-      </header>
-      <section class="content-grid">
-        {% block body %} {% endblock %}
-      </section>
-      <footer class="footer">
-        {% include 'layout/shared/_footer.html' %}
-      </footer>
+    <div class="navbar">
+      {% include 'layout/shared/_navbar.html' %}
     </div>
+    <section class="body">
+      {% block body %} {% endblock %}
+    </section>
+    <footer class="footer">
+      {% include 'layout/shared/_footer.html' %}
+    </footer>
   </body>
 </html>

@@ -1,60 +1,27 @@
-.navbar-logo {
-  transition: 0.3s;
-  z-index: 12;
+.navbar {
+  /* fixed navbar */
+  top: 0;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  padding: 10px 0px;
+
+  /* display div inside */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: solid 0.2px;
+  border-bottom-style: ridge;
 }
 
 .navbar-logo img {
-  width: 100px;
+  width: 170px;
 }
 
-.navbar-logo a {
-  color: black;
-}
-.navbar-logo a:hover {
-  color: black;
-}
-
-.navbar-menu {
-  font-size: 0.8em;
-}
-
-.navbar-menu ul li a {
-  color: darkgrey;
-  font-weight: lighter;
-  padding-right: 20px;
-}
-.navbar-menu ul li a:hover {
-  color: red;
-}
-
-.navbar-btn {
-  display: none;
-}
-
-.contact-btn {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 16px;
-  padding-right: 16px;
-  font-size: 14px;
-}
-.contact-btn a {
-  color: white;
-}
-.contact-btn a:hover {
-  color: white;
+.navbar-menu li {
+  padding-right: 40px;
 }
 
 @media (min-width: 800px) {
-  .navbar-btn {
-    display: block;
-  }
 
-  .navbar-logo img {
-    width: 200px;
-  }
-
-  .navbar-menu {
-    font-size: 1em;
-  }
 }

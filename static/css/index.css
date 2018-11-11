@@ -1,146 +1,200 @@
 /* HEADER */
 
-.header-title h1 {
-  font-size: 40px;
+.wrapper-header {
+  background-image: url('../images/background-header.jpg');
+  background-size: cover;
+  height: 100vh;
 }
 
-.header-subtitle h2 {
+.header-content {
+  width: 800px;
+  margin: 0 auto;
+  padding-top: 25vh;
+  text-align: right;
+}
+
+.header-content-image-logo img {
+  width: 120px;
+  padding-bottom: 10px;
+}
+
+.header-content-title h1 {
+  font-size: 3em;
+  margin-bottom: 5px;
+  margin: 0;
+}
+
+.header-content-title hr {
+  display: block;
+  height: 4px;
+  border: 0;
+  background-color: black;
+  border-radius: 10px;
+  margin-left: 92%;
+}
+
+.header-content-title h2 {
   font-weight: lighter;
 }
 
-#center-btn-header {
-  width: 30%;
-  margin: 0 auto;
-  padding: 10px;
+.header-content-btn {
+  margin-top: 120px;
+}
+.header-content-btn a {
+  border: 3px solid white;
+  color: white;
+  padding: 3px 60px;
 }
 
-.header-images img {
-  display: none;
+.header-content-btn a:hover {
+  border: 3px solid rgb(255, 51, 51);
 }
 
-.header-onair {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 20px;
-  margin-left: -25px;
+.header-scrollbar {
+  text-align: center;
+  margin: -60px 0px 60px 0px
 }
 
-.img-onair img {
-  width: 50%;
+.header-scrollbar i {
+  color: white;
+  font-size: 50px;
 }
 
-.text-onair {
-  font-size: 10px;
-  margin-left: -15px;
-}
+/* AGENCY */
 
-/* FIRST PART "AGENCE" */
-
-.agency-title h2 {
-  font-size: 2em;
+.agency {
   text-align: center;
 }
 
-.agency-content p {
-  font-weight: 100;
+.agency-image-logo {
+  margin-bottom: -20px;
+}
+.agency-image-logo img {
+  width: 70px;
 }
 
-.agency-flash {
-  border: 1px solid darkgray;
-  border-radius: 5px;
-  width: 90%;
-  margin: 0 auto;
-  margin-top: 50px;
+.agency-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
 }
 
-.agency-index-btn {
-  margin-top: 50px;
+.agency-solo-card {
+  padding: 30px;
+}
+.agency-solo-card p {
+  width: 250px;
 }
 
+/* HASHTAGS */
 
-.btn-index {
+.hashtags {
+  text-align: center;
+  background-image: url('../images/background-hashtags.jpg');
+  background-size: cover;
   padding: 10px;
-  margin: 0px 90px;
 }
 
-/*
-margin: 0 auto;
-width: 40%;
-*/
+.hashtags h3 {
+  color: white;
+  margin-top: -20px
+}
+
+/* FLASH */
+
+.flash {
+  background-color: black;
+  color: white;
+  /* background-image: url('../images/background-hashtags.jpg'); */
+}
+
+.flash {
+  padding: 20px 0px 40px 0px;
+}
+
+.flash h2 {
+  font-size: 2em;
+  margin: 0;
+}
+
+.flash p {
+  margin: 5px;
+  color: black;
+}
+
+.flash span {
+  background-color: white;
+}
+
+.flash-btn {
+  margin-top: 30px;
+}
+
+.flash-btn a {
+  color: white;
+  border: 2px solid white;
+  padding: 4px 30px;
+}
+
+.flash-btn a:hover {
+  border: 3px solid rgb(255, 51, 51);
+}
+
+/* PRESENTATION */
+
+.presentation {
+  background-image: url('../images/background-header.jpg');
+  background-size: cover;
+  text-align: center;
+  padding: 40px;
+}
+
+.presentation h3 {
+  font-weight: normal;
+}
+
+.presentation hr {
+  display: block;
+  margin: 30px auto;
+  height: 4px;
+  width: 80px;
+  border: none;
+  background-color: rgb(255, 51, 51);
+  border-radius: 10px;
+}
+
+.presentation-cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.presentation-solo-card {
+  border: 1px solid darkgray;
+  background-color: lightskyblue;
+  padding: 40px;
+  width: 200px;
+  height: 130px;
+}
+
+.presentation-solo-card p {
+  width: 200px;
+}
+
+/* PARTNERS */
+
+.partners {
+  background-color: black;
+  color: white;
+  padding: 60px;
+}
+
+.partners h2 {
+  font-size: 15px;
+}
+
 
 @media (min-width: 800px) {
-  .grid-index {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr auto auto;
-  }
-  .header-content {
-    grid-column: 2/3;
-    grid-row: 1/2;
-  }
-  .header-images img {
-    display: block;
-    width: 350px;
-    padding-left: 120px;
-  }
-  .header-images {
-    grid-column: 3/4;
-    grid-row: 1/2;
-  }
 
-  #center-btn-header {
-    width: 20%;
-  }
-
-  .img-onair img {
-    width: 65%;
-  }
-
-  .text-onair {
-    margin-left: 0px;
-  }
-
-  .agency-title {
-    grid-column: 2/3;
-    grid-row: 2/3;
-    padding-top: 110px;
-  }
-
-  .agency-title h2 {
-    text-align: left;
-  }
-
-  .agency-content {
-    grid-column: 2/3;
-    grid-row: 3/4;
-    margin-top: -25px;
-  }
-
-  .agency-content h3 {
-    text-align: left;
-  }
-
-  .agency-content p {
-    text-align: left;
-  }
-
-  .agency-flash {
-    grid-column: 3/4;
-    grid-row: 3/4;
-    margin-top: 10px;
-    margin-bottom: 50px;
-    padding: 10px;
-  }
-
-  .agency-index-btn {
-    grid-column: 3/4;
-    grid-row: 2/3;
-    padding-top: 110px;
-    display: flex;
-    justify-content: flex-end;
-  }
-  .btn-index {
-    margin: 0px;
-  }
 }

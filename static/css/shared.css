@@ -5,27 +5,15 @@
   display: inline-block;
 }
 
-.btn {
-  border-radius: 8px;
-  box-shadow: -1px 0 4px 0 rgba(0, 0, 0, 0.5);
-  background-image: linear-gradient(64deg, #cb2d3e, #ef473a);
-  text-align: center;
-  color: white;
-}
-
-.txt-red {
-  color: #cb2d3e;
-}
-
-.txt-align {
+.txt-center {
   text-align: center;
 }
 
-.txt-align-left {
+.txt-left {
   text-align: left;
 }
 
-.font-lighter p {
+.font-lighter {
   font-weight: 100;
 }
 
@@ -35,26 +23,6 @@
   width: 80%;
 }
 
-.padding-top {
-  padding-top: 20px;
-}
-
-.padding-10 {
-  padding: 10px;
-}
-
-.padding-left-right-10 {
-  padding: 0px 10px;
-}
-
-.padding-bottom {
-  padding-bottom: 20px:
-}
-
-.margin-bottom-negatif {
-  margin-bottom: -5px;
-}
-
-.margin-top-30 {
-  margin-top: 30px;
+.red-color {
+  color: rgb(255, 51, 51);
 }

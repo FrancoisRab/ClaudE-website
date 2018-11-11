@@ -1,50 +1,84 @@
 {% extends 'layout/default.html' %}
 
 {% block body %}
-<div class="grid-index">
-  <div class="header-content txt-align-left">
-    <div class="header-title">
-      <h1>REC21</h1>
-    </div>
-    <div class="header-subtitle">
-      <h2>Nous sommes une agence de conseil média indépendante
-        et professionnelle.</h2>
-    </div>
-    <div class="header-btn">
-      <a href="{{url_for('contact')}}">
-        <div class="btn" id="center-btn-header">Contact</div>
-      </a>
-    </div>
-    <div class="header-onair">
-      <div class="img-onair">
-        <img src="static/images/online.png" alt="logo">
+  <div class="wrapper-header">
+    <div class="header-content">
+      <div class="header-content-image-logo">
+        <img src="static/images/rec21-image-logo.png" alt="">
       </div>
-      <div class="text-onair">
-        <p><strong>Disponibilité:</strong> A l'écoute de votre projet</p>
+      <div class="header-content-title">
+        <h1>REGARDER, ÉCOUTER, CRÉER</h1>
+        <hr>
+        <h2><span class="red-color">REC21</span> est une agence de conseil média indépendante et professionnelle</h2>
+      </div>
+      <div class="header-content-btn poppins">
+        <a href="/">CONTACT</a>
       </div>
     </div>
   </div>
-  <div class="header-images">
-    <img src="static/images/rec21_fake_logo.png" alt="logo">
+  <div class="header-scrollbar">
+    <i class="fas fa-angle-down"></i>
   </div>
-  <div class="agency-title">
-    <h2 class="poppins">L'agence</h2>
+
+  <div class="agency">
+    <div class="agency-image-logo">
+      <img src="static/images/rec21-image-logo.png" alt="">
+    </div>
+    <div class="agency-headline poppins">
+      <h2>L'AGENCE</h2>
+    </div>
+    <div class="agency-cards">
+      <div class="agency-solo-card">
+        <img src="/static/images/icon-artistique.png" alt="">
+        <p>De la création artistique et éditoriale ou marketing, à la communication.</p>
+      </div>
+      <div class="agency-solo-card">
+        <img src="/static/images/icon-conception-programmes.png" alt="">
+        <p>De la conception de programmes et contenus performants, à l'expertise musicale.</p>
+      </div>
+      <div class="agency-solo-card">
+        <img src="/static/images/icon-coaching.png" alt="">
+        <p>De l'organisation et du coaching de votre équipe, à l'étude de marché concurrentielle.</p>
+      </div>
+    </div>
   </div>
-  <div class="agency-content txt-align">
-    <h3>Ce que nous faisons</h3>
-    <p>De la conception de programmes et contenus performants à l’expertise musicale, de la création artistique et éditoriale
-    au marketing et à la communication, de l’organisation et du coaching de votre équipe à l’étude de marché
-    concurrentielle… Votre marque est unique, l’agence <span class="txt-red">REC21</span> crée avec vous une identité sur mesure !</p>
+
+  <div class="hashtags poppins">
+    <h2>L'AGENCE <span class="red-color">REC21</span></h2>
+    <h3>L'expertise #Media #Radio #Musique #Digital #Marque #Broadcast</h3>
   </div>
-  <div class="agency-flash txt-align flashbox">
-    <p>Vous êtes une radio locale, régionale, nationale ou digitale.<br>
-    Vous voulez le regard objectif d’un professionnel et une relation de confiance.<br>
-    Vous souhaitez être accompagné avec des propositions opérationnelles et efficaces.</p>
+
+  <div class="flash txt-center">
+    <h2 class="poppins">À LA UNE !</h2>
+    <p><span>Vous êtes une radio locale, régionale, nationale ou digitale.</span></p>
+    <p><span>Vous voulez le regard objetif d'un professionnelle et une relation de confiance.</span></p>
+    <p><span>Vous souhaitez être accompagné avec des propositions opérationnelles et efficaces.</span></p>
+    <div class="flash-btn">
+      <a href="/">DEMARRER UN PROJET</a>
+    </div>
   </div>
-  <div class="agency-index-btn">
-    <a href="{{url_for('contact')}}">
-      <div class="btn btn-index">Démarrer un projet</div>
-    </a>
+
+  <div class="presentation">
+    <h3>L'Agence <strong class="poppins">REC21</strong> développe de nombreux projets</h3>
+    <hr>
+    <div class="presentation-cards">
+      <div class="presentation-solo-card">
+        <img src="/static/images/icon-conception-programmes.png" alt="">
+        <p>CRÉATION DE PODCASTS</p>
+      </div>
+      <div class="presentation-solo-card">
+        <img src="/static/images/icon-radio-digitale.png" alt="">
+        <p>CRÉATION DE RADIOS DIGITALES</p>
+      </div>
+      <div class="presentation-solo-card">
+        <img src="/static/images/icon-management-artiste.png" alt="">
+        <p>MANAGEMENT ARTISTIQUE</p>
+      </div>
+    </div>
   </div>
-</div>
+
+  <div class="partners txt-center poppins">
+    <h2>Ils nous font confiance</h2>
+    <p>ICI LES LOGOS</p>
+  </div>
 {% endblock %}
