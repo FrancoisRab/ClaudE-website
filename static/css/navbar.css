@@ -1,27 +1,107 @@
-.navbar {
-  /* fixed navbar */
-  top: 0;
-  position: fixed;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: 'segoe ui';
+}
+
+.nav {
+  height: 50px;
   width: 100%;
   background-color: white;
-  padding: 10px 0px;
-
-  /* display div inside */
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  border-bottom: solid 0.2px;
-  border-bottom-style: ridge;
+  position: fixed;
 }
 
-.navbar-logo img {
-  width: 170px;
+.nav-title img {
+  width: 130px;
 }
 
-.navbar-menu li {
-  padding-right: 40px;
+.nav > .nav-header {
+  display: inline;
 }
 
-@media (min-width: 800px) {
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 22px;
+  color: black;
+  padding: 10px 10px 10px 10px;
+}
 
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav > .nav-links {
+  display: inline;
+  float: right;
+}
+
+.nav > .nav-links > a {
+  display: inline-block;
+  padding: 13px 10px 13px 75px;
+  color: black;
+}
+
+.nav > .nav-links > a:hover {
+  color: rgb(255, 51, 51);
+}
+
+.nav > #nav-check {
+  display: none;
+}
+@media (max-width:920px){
+  .nav > .nav-links > a {
+    padding: 13px 10px 13px 40px;
+}
+}
+@media (max-width:800px) {
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .nav > .nav-btn > label:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: rgba(255,255,255, 0.9);
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+  }
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+  }
+  .nav > #nav-check:not(:checked) + .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked + .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+
+  .nav-title img {
+    width: 120px;
+  }
 }

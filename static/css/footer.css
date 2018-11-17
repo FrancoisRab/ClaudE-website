@@ -50,10 +50,9 @@
   font-size: 7px;
 }
 
-@media (min-width: 800px) {
-  .footer-content-size {
-    width: 520px;
-    margin: 0 auto;
+@media (max-width: 800px) {
+  .status-online {
+    display: none;
   }
 
   .copyright p {

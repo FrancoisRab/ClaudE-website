@@ -1,14 +1,20 @@
-<div class="navbar-logo">
-  <a href="/">
+<div class="nav-header">
+  <div class="nav-title">
     <img src="static/images/REC21.png" alt="Revenez sur l'accueil">
-  </a>
+  </div>
 </div>
-<div class="navbar-menu">
-  <ul class="inline">
-    <li><a href="{{url_for('index')}}"> HOME </a></li>
-    <li><a href="{{url_for('agence')}}"> AGENCE </a></li>
-    <li><a href="{{url_for('radio')}}"> RADIO </a></li>
-    <li><a href="{{url_for('projets')}}"> PROJETS </a></li>
-    <li><a href="{{url_for('contact')}}"> CONTACT </a></li>
-  </ul>
+<div class="nav-btn">
+  <label for="nav-check">
+    <span></span>
+    <span></span>
+    <span></span>
+  </label>
+</div>
+<input type="checkbox" id="nav-check">
+<div class="nav-links">
+  <a href="{{url_for('index')}}"> HOME </a>
+  <a href="{{url_for('agence')}}"> AGENCE </a>
+  <a href="{{url_for('radio')}}"> RADIO </a>
+  <a href="{{url_for('projets')}}"> PROJETS </a>
+  <a href="{{url_for('contact')}}"> CONTACT </a>
 </div>
