@@ -93,7 +93,7 @@
   text-align: center;
   background-image: url('../images/background-hashtags.jpg');
   background-size: cover;
-  padding: 10px;
+  padding: 30px;
 }
 
 .hashtags h3 {
@@ -110,7 +110,7 @@
 }
 
 .flash {
-  padding: 20px 0px 40px 0px;
+  padding: 30px 0px 50px 0px;
 }
 
 .flash h2 {
@@ -193,6 +193,37 @@
 .partners h2 {
   font-size: 15px;
 }
+
+/* CITATION */
+
+.citation {
+  background-image: url('../images/background-citation.jpg');
+  background-size: cover;
+  padding: 30px;
+}
+
+.citation h2 {
+  font-size: 17px;
+}
+#quote-size {
+  font-size: 25px;
+}
+
+/* WORK TOGETHER */
+.work-together {
+  padding: 40px;
+}
+
+.work-together h3 {
+  letter-spacing: 2px;
+  padding-bottom: 20px;
+}
+
+.work-together p {
+  padding-bottom: 20px;
+}
+
+
 
 
 @media (min-width: 800px) {

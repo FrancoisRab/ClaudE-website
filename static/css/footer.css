@@ -1,32 +1,42 @@
-.headline-footer {
-  color: black;
-  text-align: center;
-  font-size: 13px;
-}
-
-.footer-content {
+.footer {
   text-align: center;
   background-color: black;
+  color: white;
+  padding-top: 40px;
 }
-.footer-content a {
+
+.footer a {
   color: white;
 }
-.footer-text h2 {
-  padding-top: 20px;
+
+.status-online {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
 }
 
-.footer-text p {
-  padding: 0px 15px 15px 15px;
+.status-online p {
+  margin-left: 15px;
 }
 
-#btn-footer {
-  width: 30%;
-  margin: 0 auto;
-  padding: 10px;
+.footer-btn {
+  padding: 30px;
+}
+
+.footer-btn a {
+  border: 2px solid white;
+  color: white;
+  padding: 7px 17px;
+}
+
+.footer-btn a:hover {
+  border: 2px solid rgb(255, 51, 51);
 }
 
 .footer-network-logo {
   margin-left: -20px;
+  padding: 30px;
 }
 
 .footer-network-logo i {
