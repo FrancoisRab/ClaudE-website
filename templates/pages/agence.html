@@ -1,85 +1,105 @@
 {% extends 'layout/default.html'%}
-{% block title %} En savoir plus - {{ super() }}{% endblock %}
+{% block title %} Agence - {{ super() }}{% endblock %}
 
 {% block body %}
-<div class="page-title">
-  <h1>Agence</h1>
-</div>
-<div class="agency-content-page">
-  <div class="agency-subtitle font-lighter">
-    <p><em>« REC21 est une agence de conseil média indépendante et professionnelle. »</em></p>
-  </div>
-  <div class="agency-skills">
-    <div class="agency-skills-img center-img">
-      <img src="static/images/app.jpg" alt="">
+    <div class="agency-header">
+        <div class="agency-content poppins">
+            <h2> 
+                <span class="red-color">REC21</span> est une agence de conseil média 
+                indépendante et professionnelle
+            </h2>
+            <div class="agency-btn">
+                <a href="#">CONTACT</a>
+            </div>
+        </div>    
+        <div class="agency-header-footer txt-center poppins">
+            <p>
+                <strong>L'AGENCE REC21,</strong> <br>
+                L'expertise #Media #Radio #Musique #Digital #Marque #Broadcast
+            </p>
+        </div>
     </div>
-    <div class="agency-skills-txt font-lighter">
-      <h3 class="poppins">Ce que nous faisons:</h3>
-      <p>De la conception de programmes et contenus performants à l’expertise musicale, de la création artistique et éditoriale
-        au marketing et à la communication, de l’organisation et du coaching de votre équipe à l’étude de marché
-        concurrentielle… Votre marque est unique, l’agence REC21 crée avec vous une identité sur mesure !</p>
-      </div>
-    </div>
-  <div class="agency-btn-page">
-    <a href="{{url_for('contact')}}">
-      <div class="btn" id="btn-agency">Contactez-moi</div>
-    </a>
-  </div>
-  <div class="agency-list">
-    <div class="agency-skills-txt font-lighter">
-      <p>L’agence REC21 vous accompagne dans la réussite de votre projet avec des solutions concrètes, efficaces et
-      opérationnelles.<br>
-      L’agence REC21 développe et accompagne de nombreux tel que :
-      <ul>
-        <li>La création de podcasts</li>
-        <li>La création d’une radio digitale</li>
-        <li>Le management artistique</li>
-      </ul>
-    </div>
-    <div class="agency-skills-img center-img">
-      <img src="static/images/app.jpg" alt="">
-    </div>
-  </div>
-</div>
-<div class="presentation font-lighter padding-top">
-  <div class="presentation-title padding-top">
-    <div class="presentation-avatar">
-      <img src="static/images/avatar.png" alt="">
-    </div>
-    <div class="presentation-headtitle poppins">
-      <h2>NOM PRENOM</h2>
-      <h3>FONDATEUR</h3>
-    </div>
-  </div>
-  <p>
-  Ancien dirigeant d’NRJ Group et Directeur d’antenne de Chérie FM, il a porté la station à 4.5% d’AC et 3% de PDA.
 
-  Durant plus de 20 ans, il a occupé tous les postes opérationnels et stratégiques de la radio en Local et en National :
-  Animateur, Planificateur, Producteur, Chargé de communication et promotion, Responsable du réseau, Directeur adjoint
-  aux programmes avec de nombreux succès :
-  </p>
-  <ul>
-    <li>Le développement des audiences et de la marque </li>
-    <li>Les mornings locaux de Chérie FM (6.5% d’AC en 2004 record de la station) </li>
-    <li>La conception de podcasts et la programmation du bouquet digital dès 2006 </li>
-    <li>La synergie et le management des équipes nationales - locales </li>
-    <li>La direction du marketing (antenne, TV, web, digital, print, réseaux sociaux) </li>
-    <li>La création d’évènements culturels avec l’industrie musicale et les régies </li>
-    <li>Les relations avec les décideurs et les institutionnels au cœur des régions…
-    permettent une expertise de chaque métier et une polyvalence de compétences.</li>
-  </ul>
-  <p>
-  Professionnel direct, créatif et dynamique… Passionné par les médias, la radio, la musique, les artistes, le son, le
-  digital et les nouveaux modes de consommations, il reste attaché aux territoires car c’est en équipe que se font les
-  plus beaux succès !
-  Avoir confiance, c’est se parler, se rencontrer.
-  </p>
-</div>
-<div class="logos-content txt-align padding-top">
-  <ul class="inline">
-    <li><a href="/"><img src="" alt=""></a>LOGO</li>
-    <li><a href="/"><img src="" alt=""></a>LOGO 2</li>
-    <li><a href="/"><img src="" alt=""></a>LOGO 3</li>
-  </ul>
-</div>
+    <div class="agency-skills">
+        <div class="agency-skills-title txt-center">
+            <img src="/static/images/rec21-image-logo.png" alt="">
+            <h3 class="poppins">CE QUE NOUS FAISONS</h3>            
+        </div>
+        <div class="agency-skills-cards">
+            <div class="agency-skills-card">
+                <div class="agency-skills-card-content txt-center">
+                    <img src="/static/images/icon-artistique.png" alt="">
+                    <p>De la création artistique et éditoriale au marketing et à la communication.</p>
+                </div> 
+                <img src="/static/images/agency-artistique.png" alt="">
+            </div>
+            <div class="agency-skills-card">
+                <img src="/static/images/agency-programmes.png" alt="">
+                <div class="agency-skills-card-content txt-center">
+                    <img src="/static/images/icon-conception-programmes.png" alt="">
+                    <p>De la conception de programmes et contenus performants à l'expertise musicale</p>
+                </div> 
+            </div>
+            <div class="agency-skills-card">
+                <div class="agency-skills-card-content txt-center">
+                    <img src="/static/images/icon-coaching.png" alt="">
+                    <p>De l'organisation et du coaching de votre équipe à l'étude  de marché concurrentielle</p>
+                </div> 
+                <img src="/static/images/agency-coaching.png" alt="">
+            </div>
+        </div>
+        <p class="txt-center">
+            Votre marque st unique, l'Agence <span class="red-color">REC21</span> 
+            crée avec vous une identité sur mesure !
+        </p>
+    </div>
+    <div class="presentation">
+        <h3>L'Agence <strong class="poppins">REC21</strong> développe de nombreux projets</h3>
+        <hr>
+        <div class="presentation-cards">
+            <div class="presentation-solo-card">
+                <img src="/static/images/icon-conception-programmes.png" alt="">
+                <p>CRÉATION DE PODCASTS <br>
+                <span class="non-visible">hey</span></p>
+            </div>
+            <div class="presentation-solo-card">
+                <img src="/static/images/icon-conception-programmes.png" alt="">
+                <p>CRÉATION DE RADIOS DIGITALES <br></p>
+            </div>
+            <div class="presentation-solo-card">
+                <img src="/static/images/icon-conception-programmes.png" alt="">
+                <p>MANAGEMENT ARTISTIQUE <br></p>
+            </div>
+        </div>
+    </div>
+    <div class="agency-whos txt-center">
+        <h3>Claude-Eric Roy</h3>  
+        <h4>Fondateur</h4>
+        <p>
+            Ancien dirigeant d’NRJ Group et Directeur d’antenne de Chérie FM, il a porté la 
+            station à 4.5% d’AC et 3% de PDA.
+        </p>
+        <p>
+            Durant plus de 20 ans, il a occupé tous les postes opérationnels et stratégiques 
+            de la radio en Local et en National : Animateur, Planificateur, Producteur, Chargé 
+            de communication et promotion, Responsable du réseau, Directeur adjoint aux 
+            programmes avec de nombreux succès :
+        </p>
+        <p>
+            Le développement des audiences et de la marque <br>
+            Les mornings locaux de Chérie FM (6.5% d’AC en 2004 record de la station)  <br>
+            La conception de podcasts et la programmation du bouquet digital dès 2006  <br>
+            La synergie et le management des équipes nationales - locales <br>
+            La direction du marketing (antenne, TV, web, digital, print, réseaux sociaux)  <br>
+            La création d’évènements culturels avec l’industrie musicale et les régies <br>
+            Les relations avec les décideurs et les institutionnels au cœur des régions… <br>
+            permettent une expertise de chaque métier et une polyvalence de compétences.
+        </p>
+        <p>
+            Professionnel direct, créatif et dynamique… Passionné par les médias, la radio,
+            la musique, les artistes, le son, le digital et les nouveaux modes de consommations,
+            il reste attaché aux territoires car c’est en équipe que se font les plus beaux succès !
+            Avoir confiance, c’est se parler, se rencontrer.
+        </p>
+    </div>
 {% endblock %}

@@ -1,35 +1,65 @@
-.agency-subtitle p {
-  font-size: 16px;
-  text-align: center;
+/* HEADER */
+.agency-header {
+    padding-top: 50px;
+    background-image: url('../images/background-header.jpg');
+    background-size: cover;
 }
 
-.agency-skills-txt h3 {
-  margin-bottom: -10px;
+.agency-content {
+    text-align: right;
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-bottom: 85px;
+}
+.agency-content h2 {
+    font-size: 30px;
 }
 
-.agency-btn-page {
-  padding: 10px;
+.agency-btn a {
+    border: 2px solid black;
+    padding: 5px 60px 5px 60px;
+}
+.agency-btn a:hover {
+    border: 2px solid RGBA(42, 61, 119, 1.00);
 }
 
-.presentation-title {
-  display: flex;
-  align-items: center;
+.agency-header-footer {
+    background-color: RGBA(0, 0, 97, 0.5); 
+    margin-bottom: 0;
+}
+.agency-header-footer p {
+    font-size: 25px;
+    color: white;
+    margin: 0;
+    padding: 20px 0px;
 }
 
-.presentation-avatar img {
-  width: 40%;
-  border-radius: 50px;
+/* SKILLS */
+.agency-skills p {
+    font-weight: normal;
+    padding: 30px;
 }
 
-.presentation-headtitle {
-  margin-left: -70px;
-  line-height: 8px;
+.agency-skills-title {
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.agency-skills-title img {
+    width:70px;
+}
+.agency-skills-title h3 {
+    margin-top: 0;
 }
 
-.presentation ul li {
-  font-weight: lighter;
+.agency-skills-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
 }
 
-#btn-agency {
-  padding: 10px;
+.agency-skills-card-content {
+    width: 350px;
+    margin: 36px;
 }
