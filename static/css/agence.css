@@ -3,17 +3,31 @@
     padding-top: 50px;
     background-image: url('../images/background-header.jpg');
     background-size: cover;
+    height: 70vh;
 }
 
 .agency-content {
     text-align: right;
-    width: 500px;
-    margin: 0 auto;
     padding-top: 70px;
     padding-bottom: 85px;
+    padding-right: 120px;
+}
+.agency-content img {
+    width: 120px;
 }
 .agency-content h2 {
-    font-size: 30px;
+    font-size: 50px;
+    margin: 0;
+}
+.agency-content hr {
+    height: 4px;
+    border-radius: 10px;
+    background-color: black;
+    margin-right: 0px;
+    width: 80px;
+}
+.agency-content p {
+    letter-spacing: 2px;
 }
 
 .agency-btn a {
@@ -24,32 +38,13 @@
     border: 2px solid RGBA(42, 61, 119, 1.00);
 }
 
-.agency-header-footer {
-    background-color: RGBA(0, 0, 97, 0.5); 
-    margin-bottom: 0;
-}
-.agency-header-footer p {
-    font-size: 25px;
-    color: white;
-    margin: 0;
-    padding: 20px 0px;
-}
-
 /* SKILLS */
+.agency-skills {
+    padding: 60px;
+}
 .agency-skills p {
     font-weight: normal;
-    padding: 30px;
-}
-
-.agency-skills-title {
-    margin: 0 auto;
-    padding-top: 20px;
-}
-.agency-skills-title img {
-    width:70px;
-}
-.agency-skills-title h3 {
-    margin-top: 0;
+    font-size: 13px;
 }
 
 .agency-skills-card {
@@ -60,6 +55,110 @@
 }
 
 .agency-skills-card-content {
-    width: 350px;
+    width: 500px;
     margin: 36px;
+}
+.agency-skills-card-content-title {
+    display: flex;
+    justify-content: start;
+    align-items: first baseline;
+}
+.agency-skills-card-content-title h3 {
+    padding-left: 20px;
+}
+
+/* EXPERTISE */
+.expertise {
+    background-color: blue;
+    color: white;
+    padding: 25px 0px 60px 0px;
+    letter-spacing: 1px;
+}
+.expertise h3 {
+    margin: 0;
+    font-size: 50px;
+    font-weight: lighter;
+}
+.expertise p {
+    margin-top: 0;
+}
+
+/* DEVISE */
+.devise {
+    background-color: purple;
+    color: white;
+    padding: 25px 0px 60px 0px;
+    letter-spacing: 1px;
+}
+.devise img {
+
+}
+
+/* WHOS  */
+.agency-whos-content {
+    width: 80%;
+    margin: 0 auto;
+    padding: 60px 0px;
+}
+.agency-whos-content h3 {
+    font-size: 20px;
+    margin-bottom: -20px;
+}
+.agency-whos-content h4 {
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+.agency-whos-content hr {
+    height: 4px;
+    border-radius: 10px;
+    background-color: black;
+    margin: 0px auto;
+    width: 80px;
+}
+.agency-whos-content-width {
+    width: 65%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+.agency-whos-content-width p {
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+.agency-whos-quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.agency-whos-content-h2 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 40px;
+}
+#quote-margin {
+    margin-bottom: 0px;
+}
+
+/* EXPERIENCE */
+.experience {
+    background-color: blue;
+    padding: 60px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+/* WORK TOGETHER */ 
+.work-together {
+    padding: 60px;
+    background-image: url('../images/background-header.jpg');
+    background-size: cover;
+}
+
+
+/* MOBILE  */
+@media (max-width: 800px) {
+    .agency-whos-content {
+        width: 100%;
+    }
 }

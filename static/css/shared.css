@@ -27,6 +27,12 @@
   color: rgb(255, 51, 51);
 }
 
+.black-color {
+    color: black;
+}
+.white-color {
+    color: white;
+}
 .non-visible {
   opacity: 0;
 }
