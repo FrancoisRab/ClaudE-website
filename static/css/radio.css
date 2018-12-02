@@ -169,3 +169,32 @@
     padding: 20px; 
     width: 320px;
 }
+
+@media (max-width: 800px) {
+    .radio-header-content {
+        width: 300px;
+    }
+    .radio-content {
+        padding-top: 0;
+        padding-right: 0;
+    }
+    .radio-content h3 {
+        font-size: 13px;
+    }
+    .radio-content p {
+        font-size: 11px;
+        margin: 0;
+    }
+    .meet-cards {
+        display: block;
+    }
+    .table-logos {
+        padding: 10px;
+    }
+    .table-logos-card {
+        width: 100%;
+    }
+    .table-logos-cards {
+        display: block;
+    }
+}
