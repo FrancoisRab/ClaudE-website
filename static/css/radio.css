@@ -5,6 +5,12 @@
     background-size: cover;
     height: 70vh;
 }
+.radio-header-content {
+    width: 850px;
+    margin: 0 auto;
+    padding-top: 6vh;
+    text-align: right;
+}
 .radio-content {
     text-align: right;
     padding-top: 70px;
@@ -141,7 +147,10 @@
 .table-logos {
     padding: 40px;
 }
-.table-logos hr {
+#hr-padding {
+    padding-top: 20px;
+}
+#hr-padding hr {
   display: block;
   margin: 10px auto;
   height: 4px;
@@ -149,4 +158,14 @@
   border: none;
   background-color: rgb(255, 51, 51);
   border-radius: 10px;
+}
+.table-logos-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.table-logos-card {
+    padding: 20px; 
+    width: 320px;
 }

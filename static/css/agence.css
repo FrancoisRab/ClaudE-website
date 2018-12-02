@@ -1,11 +1,17 @@
 /* HEADER */
+
 .agency-header {
     padding-top: 50px;
     background-image: url('../images/background-header.jpg');
     background-size: cover;
     height: 70vh;
 }
-
+.agency-header-content {
+    width: 850px;
+    margin: 0 auto;
+    padding-top: 6vh;
+    text-align: right;
+}
 .agency-content {
     text-align: right;
     padding-top: 70px;

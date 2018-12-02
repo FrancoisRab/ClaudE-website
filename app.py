@@ -22,6 +22,11 @@ def projets():
 def contact():
     return render_template('pages/contact.html')
 
+@app.route('/mentions')
+def mentions():
+    return render_template('pages/mentions-legales.html')
+
+
 
 @app.errorhandler(404)
 def page_not_found(error):

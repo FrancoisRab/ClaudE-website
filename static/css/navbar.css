@@ -8,7 +8,7 @@ body {
 }
 
 .nav {
-  height: 50px;
+  height: 80px;
   width: 100%;
   background-color: white;
   position: fixed;
@@ -24,9 +24,7 @@ body {
 
 .nav > .nav-header > .nav-title {
   display: inline-block;
-  font-size: 22px;
-  color: black;
-  padding: 10px 10px 10px 10px;
+  padding: 30px 10px 10px 55px;
 }
 
 .nav > .nav-btn {
@@ -36,11 +34,12 @@ body {
 .nav > .nav-links {
   display: inline;
   float: right;
+  padding-right: 70px;
 }
 
 .nav > .nav-links > a {
   display: inline-block;
-  padding: 13px 10px 13px 75px;
+  padding: 40px 10px 13px 75px;
   color: black;
 }
 
