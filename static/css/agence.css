@@ -164,7 +164,38 @@
 
 /* MOBILE  */
 @media (max-width: 800px) {
+    .agency-header-content{
+        width: 300px;
+    }
+    .agency-content {
+        padding-right: 0px;
+    }
+    .agency-skills {
+        padding: 0px;
+    }
+    .agency-skills-card {
+        display: block;
+    }
+    .agency-skills-card-content {
+        width: 320px;
+    }
+    .agency-skills-card-content-img {
+        width: 100%;
+    }
     .agency-whos-content {
         width: 100%;
+    }
+    .agency-whos-content-width {
+        width: 90%;
+        text-align: justify;
+    }
+    .agency-whos-quote {
+        display: block;
+    }
+    .agency-whos-content-h2 {
+        padding: 0;
+    }
+    .work-together {
+        padding: 20px;
     }
 }
