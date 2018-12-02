@@ -1,9 +1,152 @@
-.flashbox {
-  width: 90%;
-  border: 1px solid;
-  box-shadow: 10px 11px red;
+/* RADIO HEADER */
+.radio-header {
+    padding-top: 50px;
+    background-image: url('../images/background-header.jpg');
+    background-size: cover;
+    height: 70vh;
 }
-.flashbox-radio p {
-  padding-left: 15px;
+.radio-content {
+    text-align: right;
+    padding-top: 70px;
+    padding-bottom: 85px;
+    padding-right: 120px;
+}
+.radio-content img {
+    width: 120px;
+}
+.radio-content h2 {
+    font-size: 50px;
+    margin: 0;
+}
+.radio-content hr {
+    height: 4px;
+    border-radius: 10px;
+    background-color: black;
+    margin-right: 0px;
+    width: 80px;
+}
+.radio-content h3 {
+    letter-spacing: 2px;
+}
+.radio-content p {
+    letter-spacing: 2px;
+    padding: 10px;
 }
 
+/* ecosystème  */
+
+
+.ecosysteme {
+    padding: 60px 0px 90px 0px;
+}
+.ecosysteme span{
+    letter-spacing: 1px;
+    background-color: RGBA(87, 206, 186, 1.00);
+    padding: 1px 10px;
+    line-height: 2em;
+}
+.ecosysteme p {
+    margin-bottom: -15px;
+}
+
+/* ADVICE 01  */
+.advice-01 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+    padding: 60px;
+}
+.advice-01-card img {
+    width: 75px;
+    padding-right: 10px;
+}
+.advice-01-card h3 {
+   margin: 0; 
+}
+.advice-01-card p {
+   margin: 0; 
+}
+
+/* ANALYSE */
+.analyse {
+    padding: 60px 0px 90px 0px;
+    background-color: RGBA(87, 206, 186, 1.00);
+}
+.analyse span{
+    letter-spacing: 1px;
+    background-color: white;
+    padding: 1px 10px;
+    line-height: 2em;
+}
+.analyse p {
+    margin-bottom: -15px;
+}
+
+/* MEET */
+.meet {
+    padding: 40px;
+    padding: 15px 0px 80px 0px;
+}
+
+.meet hr {
+  display: block;
+  margin: 10px auto;
+  height: 4px;
+  width: 80px;
+  border: none;
+  background-color: rgb(255, 51, 51);
+  border-radius: 10px;
+}
+
+.meet-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.meet-card {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.meet-card h4 {
+    margin-bottom: 0;
+}
+.meet-card p {
+    margin-top: 5px;
+}
+
+/* ADVICE 0Z  */
+.advice-02 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+    padding: 60px;
+}
+.advice-02-card img {
+    width: 75px;
+    padding-right: 10px;
+}
+.advice-02-card h3 {
+   margin: 0; 
+}
+.advice-02-card p {
+   margin: 0; 
+}
+
+/* TABLE LOGOS  */
+
+.table-logos {
+    padding: 40px;
+}
+.table-logos hr {
+  display: block;
+  margin: 10px auto;
+  height: 4px;
+  width: 80px;
+  border: none;
+  background-color: rgb(255, 51, 51);
+  border-radius: 10px;
+}

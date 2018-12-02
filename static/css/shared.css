@@ -36,3 +36,11 @@
 .non-visible {
   opacity: 0;
 }
+
+.space-letter {
+    letter-spacing: 1px;
+}
+
+.margin-0 {
+    margin: 0;
+}
