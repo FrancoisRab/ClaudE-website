@@ -4,11 +4,20 @@
 @import 'footer.css';
 @import 'agence.css';
 @import 'radio.css';
+@import 'contact.css';
+@import 'mentions-legales.css';
 
 body {
   font-family: 'Poppins', sans-serif;
 }
 
+.body {
+  background: url('../images/backgrounds/fond_rec21.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .poppins {
   font-family: 'Poppins', sans-serif;
 }
