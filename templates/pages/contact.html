@@ -3,7 +3,19 @@
 
 {% block body %}
     <div class="contact-wrapper txt-center">
-        <h1>Contact</h1>
-        <a href="mailto:contact@rec21.fr">contact@rec21.fr</a>
+
+        <div class="contact-logo">
+            <img src="static/images/Logo_rec21.png" alt="Logo_rec21">
+        </div>
+        <div class="contact-email">
+            <a href="mailto:contact@rec21.fr">contact@rec21.fr</a>
+        </div>
+        <div class="contact-networks-logos">
+            <ul class="inline">
+                <li><a href="/"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="/"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="/"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
     </div>
-{% endblock %}
+    {% endblock %}

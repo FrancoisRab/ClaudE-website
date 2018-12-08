@@ -103,9 +103,8 @@
 /* FLASH */
 
 .flash {
-  background-color: black;
-  color: white;
-  /* background-image: url('../images/background-hashtags.jpg'); */
+    background: url('../images/backgrounds/a_la_une_rec21.jpg') no-repeat center center;
+    color: white;
 }
 
 .flash {

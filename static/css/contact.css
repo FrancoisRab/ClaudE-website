@@ -1,5 +1,20 @@
 .contact-wrapper {
     height: 80vh;
-    padding-top: 10vh;
+    padding-top: 25vh;
+}
+.contact-logo {
+    padding-bottom: 40px;
+}
+.contact-logo img {
+    margin-right: 25px;
+    width: 280px;
+}
+.contact-networks-logos {
+  margin-left: -20px;
+  padding: 30px;
 }
 
+.contact-networks-logos i {
+  font-size: 25px;
+  padding-left: 20px;
+}
