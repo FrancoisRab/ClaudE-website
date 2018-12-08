@@ -2,7 +2,7 @@
 
 .agency-header {
     padding-top: 50px;
-    background-image: url('../images/background-header.jpg');
+    background: url('../images/backgrounds/fond_rec21_agence.jpg') no-repeat center center fixed;
     background-size: cover;
     height: 70vh;
 }
@@ -46,6 +46,7 @@
 
 /* SKILLS */
 .agency-skills {
+    background-color: white;
     padding: 60px;
 }
 .agency-skills p {
@@ -78,7 +79,7 @@
 
 /* EXPERTISE */
 .expertise {
-    background-color: blue;
+    background: url('../images/backgrounds/nosexpertises.jpg') no-repeat center center;
     color: white;
     padding: 25px 0px 60px 0px;
     letter-spacing: 1px;
@@ -94,8 +95,8 @@
 
 /* DEVISE */
 .devise {
-    background-color: purple;
     color: white;
+    background: url('../images/backgrounds/fond_rec21_agence.jpg') no-repeat center center fixed;
     padding: 25px 0px 60px 0px;
     letter-spacing: 1px;
 }
@@ -104,6 +105,9 @@
 }
 
 /* WHOS  */
+.agency-whos {
+    background-color: white;
+}
 .agency-whos-content {
     width: 80%;
     margin: 0 auto;
@@ -150,17 +154,33 @@
 
 /* EXPERIENCE */
 .experience {
-    background-color: blue;
+    background: url('../images/backgrounds/aveclagence.jpg') no-repeat center center;
     padding: 60px;
     letter-spacing: 1px;
     font-size: 20px;
     line-height: 25px;
 }
+/* PRESENTATION  */
+.agence-presentation {
+    background-color: white;
+}
+.agence-presentation-cards {
+    color: white;
+}
+.agence-presentation-img01 {
+    background: url('../images/backgrounds/projetb.jpg') no-repeat center center;
+}
+.agence-presentation-img02 {
+    background: url('../images/backgrounds/projetc.jpg') no-repeat center center;
+}
+.agence-presentation-img03 {
+    background: url('../images/backgrounds/projetd.jpg') no-repeat center center;
+}
 
 /* WORK TOGETHER */ 
 .work-together {
     padding: 60px;
-    background-image: url('../images/background-header.jpg');
+    background: url('../images/backgrounds/fond_rec21_agence.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 

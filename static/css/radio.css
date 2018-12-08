@@ -1,5 +1,7 @@
 /* RADIO HEADER */
 .radio-header {
+    background: url('../images/backgrounds/fond_rec21_radio.jpg') no-repeat center center fixed;
+    background-size: cover;
     padding-top: 50px;
     height: 70vh;
 }

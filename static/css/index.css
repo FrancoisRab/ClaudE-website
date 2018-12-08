@@ -168,8 +168,8 @@
 
 .presentation-solo-card {
   border: 1px solid darkgray;
-  background-color: lightskyblue;
   padding: 40px;
+  background: url('../images/backgrounds/projeta.jpg') no-repeat center center;
 }
 
 .presentation-solo-card p {
@@ -203,7 +203,8 @@
 
 /* WORK TOGETHER */
 .work-together {
-  padding: 40px;
+    background-color: white;
+    padding: 40px;
 }
 
 .work-together h3 {
