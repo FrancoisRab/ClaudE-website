@@ -1,0 +1,18 @@
+.mentions-wrapper {
+    padding-top: 10vh;
+    height: 100vh;
+    padding: 100px;
+}
+.mentions-header {
+    padding-bottom: 50px;
+}
+
+
+@media (max-width: 800px) {
+    .mentions-wrapper {
+        padding: 10px;
+    }
+    .mentions-header {
+        padding-top: 50px;
+    }
+}
