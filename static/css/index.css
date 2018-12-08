@@ -104,6 +104,7 @@
 
 .flash {
     background: url('../images/backgrounds/a_la_une_rec21.jpg') no-repeat center center;
+    background-size: cover;
     color: white;
 }
 

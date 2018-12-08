@@ -80,6 +80,7 @@
 /* EXPERTISE */
 .expertise {
     background: url('../images/backgrounds/nosexpertises.jpg') no-repeat center center;
+    background-size: cover;
     color: white;
     padding: 25px 0px 60px 0px;
     letter-spacing: 1px;
@@ -97,6 +98,7 @@
 .devise {
     color: white;
     background: url('../images/backgrounds/fond_rec21_agence.jpg') no-repeat center center fixed;
+    background-size: cover;
     padding: 25px 0px 60px 0px;
     letter-spacing: 1px;
 }
@@ -155,6 +157,7 @@
 /* EXPERIENCE */
 .experience {
     background: url('../images/backgrounds/aveclagence.jpg') no-repeat center center;
+    background-size: cover;
     padding: 60px;
     letter-spacing: 1px;
     font-size: 20px;
@@ -169,16 +172,19 @@
 }
 .agence-presentation-img01 {
     background: url('../images/backgrounds/projetb.jpg') no-repeat center center;
+    background-size: cover;
 }
 .agence-presentation-img02 {
     background: url('../images/backgrounds/projetc.jpg') no-repeat center center;
+    background-size: cover;
 }
 .agence-presentation-img03 {
     background: url('../images/backgrounds/projetd.jpg') no-repeat center center;
+    background-size: cover;
 }
 
 /* WORK TOGETHER */ 
-.work-together {
+.agence-work-together {
     padding: 60px;
     background: url('../images/backgrounds/fond_rec21_agence.jpg') no-repeat center center fixed;
     background-size: cover;

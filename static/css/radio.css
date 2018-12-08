@@ -1,6 +1,7 @@
 /* RADIO HEADER */
 .radio-header {
     background: url('../images/backgrounds/fond_rec21_radio.jpg') no-repeat center center fixed;
+    color: white;
     background-size: cover;
     padding-top: 50px;
     height: 70vh;
@@ -59,6 +60,8 @@
 /* ADVICE 01  */
 .advice-01 {
     display: flex;
+    background: url('../images/backgrounds/conseil1.jpg') no-repeat center center;
+    background-size: cover;
     justify-content: center;
     align-items: center;
     background-color: purple;
@@ -126,6 +129,8 @@
 
 /* ADVICE 0Z  */
 .advice-02 {
+    background: url('../images/backgrounds/conseil2.jpg') no-repeat center center;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -170,6 +175,17 @@
 .table-logos-card {
     padding: 20px; 
     width: 320px;
+}
+
+/* ADVICE 03 */
+.advice-03 {
+    background: url('../images/backgrounds/conseil3.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+    padding: 60px;
 }
 
 @media (max-width: 800px) {
