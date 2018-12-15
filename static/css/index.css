@@ -2,6 +2,7 @@
 
 .wrapper-header {
   height: 100vh;
+  background: url('../images/backgrounds/fond_rec21_accueil.jpg') no-repeat center center fixed;
 }
 
 .header-content {
@@ -90,6 +91,7 @@
 /* HASHTAGS */
 
 .hashtags {
+  background: url('../images/backgrounds/fond_rec21_accueil.jpg') no-repeat center center fixed;
   text-align: center;
   padding: 30px;
 }
@@ -141,6 +143,9 @@
 }
 
 /* PRESENTATION */
+.presentation-background {
+  background: url('../images/backgrounds/fond_rec21_accueil.jpg') no-repeat center center fixed;
+}
 
 .presentation {
   text-align: center;
@@ -162,9 +167,10 @@
 }
 
 .presentation-cards {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .presentation-solo-card {
@@ -188,10 +194,14 @@
 .partners h2 {
   font-size: 15px;
 }
+.partners img {
+    padding-top: 20px;
+}
 
 /* CITATION */
 
 .citation {
+  background: url('../images/backgrounds/fond_rec21_accueil.jpg') no-repeat center center fixed;
   padding: 30px;
 }
 
@@ -249,5 +259,8 @@
   }
   .presentation-solo-card p {
     margin: 0 auto;
+  }
+  .partners img {
+      width:100%;
   }
 }
