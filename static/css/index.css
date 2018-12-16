@@ -3,6 +3,7 @@
 .wrapper-header {
   height: 100vh;
   background: url('../images/backgrounds/fond_rec21_accueil.jpg') no-repeat center center fixed;
+  background-size: cover;
 }
 
 .header-content {
@@ -92,6 +93,7 @@
 
 .hashtags {
   background: url('../images/backgrounds/fond_rec21_accueil.jpg') no-repeat center center fixed;
+  background-size: cover;
   text-align: center;
   padding: 30px;
 }
@@ -145,6 +147,7 @@
 /* PRESENTATION */
 .presentation-background {
   background: url('../images/backgrounds/fond_rec21_accueil.jpg') no-repeat center center fixed;
+  background-size: cover;
 }
 
 .presentation {
@@ -177,6 +180,7 @@
   border: 1px solid darkgray;
   padding: 40px;
   background: url('../images/backgrounds/projeta.jpg') no-repeat center center;
+  background-size: cover;
 }
 
 .presentation-solo-card p {
@@ -202,6 +206,7 @@
 
 .citation {
   background: url('../images/backgrounds/fond_rec21_accueil.jpg') no-repeat center center fixed;
+  background-size: cover;
   padding: 30px;
 }
 
