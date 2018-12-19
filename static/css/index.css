@@ -98,10 +98,10 @@
   padding: 30px;
 }
 
-.hashtags h3 {
+.hashtags p {
   color: black;
-  font-weight: lighter;
-  margin-top: -20px
+  font-size: 20px;
+  font-weight:lighter;
 }
 
 /* FLASH */
@@ -127,7 +127,10 @@
 }
 
 .flash span {
-  background-color: white;
+    letter-spacing: 1px;
+    padding: 1px 10px;
+    line-height: 2em;
+    background-color: white;
 }
 
 .flash-btn {

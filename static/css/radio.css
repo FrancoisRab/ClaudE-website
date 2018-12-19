@@ -3,13 +3,12 @@
     background: url('../images/backgrounds/fond_rec21_radio.jpg') no-repeat center center fixed;
     color: white;
     background-size: cover;
-    padding-top: 50px;
     height: 70vh;
 }
 .radio-header-content {
     width: 850px;
     margin: 0 auto;
-    padding-top: 6vh;
+    padding-top: 8vh;
     text-align: right;
 }
 .radio-content {

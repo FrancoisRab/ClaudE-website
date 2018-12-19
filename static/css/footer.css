@@ -35,13 +35,15 @@
 }
 
 .footer-network-logo {
-  margin-left: -20px;
   padding: 30px;
 }
 
+.footer-network-inline {
+    padding-right: 65px;
+}
 .footer-network-logo i {
-  font-size: 25px;
-  padding-left: 20px;
+  font-size: 35px;
+  padding-left: 65px;
 }
 
 .copyright {
