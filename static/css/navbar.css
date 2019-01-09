@@ -24,7 +24,7 @@ body {
 
 .nav > .nav-header > .nav-title {
   display: inline-block;
-  padding: 30px 10px 10px 55px;
+  padding: 0px 10px 10px 55px;
 }
 
 .nav > .nav-btn {
