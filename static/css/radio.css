@@ -189,6 +189,12 @@
 
 @media (max-width: 800px) {
     .radio-header-content {
+        padding-top: 18vh;
+    }
+    .radio-header {
+        height: 80vh;
+    }
+    .radio-header-content {
         width: 300px;
     }
     .radio-content {

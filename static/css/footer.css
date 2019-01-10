@@ -53,12 +53,18 @@
 }
 
 @media (max-width: 800px) {
-  .status-online {
-    display: none;
-  }
+    .footer-network-inline {
+        padding-right: 35px;
+    }
+    .footer-network-logo i {
+        padding-left: 35px;
+    }
+    .status-online {
+        display: none;
+    }
 
-  .copyright p {
-    font-size: 10px;
-    padding-bottom: 5px;
-  }
+    .copyright p {
+        font-size: 10px;
+        padding-bottom: 5px;
+    }
 }

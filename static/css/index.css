@@ -180,10 +180,12 @@
 }
 
 .presentation-solo-card {
-  border: 1px solid darkgray;
-  padding: 40px;
-  background: url('../images/backgrounds/projeta.jpg') no-repeat center center;
-  background-size: cover;
+    webkit-box-shadow: 1px 1px 13px -3px rgba(0,0,0,0.38);
+    -moz-box-shadow: 1px 1px 13px -3px rgba(0,0,0,0.38);
+    box-shadow: 1px 1px 13px -3px rgba(0,0,0,0.38);
+    padding: 40px;
+    background: url('../images/backgrounds/projeta.jpg') no-repeat center center;
+    background-size: cover;
 }
 
 .presentation-solo-card p {

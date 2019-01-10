@@ -85,13 +85,18 @@ body {
     height: 0px;
     transition: all 0.3s ease-in;
     overflow-y: hidden;
-    top: 50px;
+    top: 80px;
     left: 0px;
   }
   .nav > .nav-links > a {
     display: block;
     width: 100%;
   }
+
+  .nav > .nav-header > .nav-title {
+      padding: 0px 10px 10px 10px;
+  }
+
   .nav > #nav-check:not(:checked) + .nav-links {
     height: 0px;
   }
