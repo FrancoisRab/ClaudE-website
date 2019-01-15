@@ -68,6 +68,11 @@
     padding: 30px 0px;
 }
 
+.agency p {
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
 .agency-image-logo {
   margin-bottom: -20px;
 }
@@ -77,16 +82,14 @@
 
 .agency-cards {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   padding-top: 30px;
 }
 
 .agency-solo-card {
-  padding: 30px;
-}
-.agency-solo-card p {
-  width: 250px;
+  padding: 30px 50px;
+  width: 480px;
 }
 
 /* HASHTAGS */
@@ -119,6 +122,7 @@
 .flash h2 {
   font-size: 2em;
   margin: 0;
+  letter-spacing: 2px;
 }
 
 .flash p {
@@ -155,7 +159,7 @@
 
 .presentation {
   text-align: center;
-  padding: 40px;
+  padding: 40px 40px 80px 40px;
 }
 
 .presentation h3 {
@@ -173,19 +177,18 @@
 }
 
 .presentation-cards {
-    color:white;
+    color: black;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 .presentation-solo-card {
-    webkit-box-shadow: 1px 1px 13px -3px rgba(0,0,0,0.38);
-    -moz-box-shadow: 1px 1px 13px -3px rgba(0,0,0,0.38);
-    box-shadow: 1px 1px 13px -3px rgba(0,0,0,0.38);
+    webkit-box-shadow: 1px 1px 13px -3px rgba(0,0,0,0.10);
+    -moz-box-shadow: 1px 1px 13px -3px rgba(0,0,0,0.10);
+    box-shadow: 1px 1px 13px -3px rgba(0,0,0,0.10);
     padding: 40px;
-    background: url('../images/backgrounds/projeta.jpg') no-repeat center center;
-    background-size: cover;
+    background-color: rgba(247, 251, 254, 0.7)
 }
 
 .presentation-solo-card p {
@@ -201,7 +204,7 @@
 }
 
 .partners h2 {
-  font-size: 15px;
+  font-size: 20px;
 }
 .partners img {
     padding-top: 20px;
@@ -236,7 +239,10 @@
 .work-together p {
   padding-bottom: 20px;
 }
-
+.work-together-endline {
+    font-size: 18px;
+    letter-spacing: 2px;
+}
 
 @media (max-width: 800px) {
   .header-content {

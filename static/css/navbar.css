@@ -24,7 +24,7 @@ body {
 
 .nav > .nav-header > .nav-title {
   display: inline-block;
-  padding: 0px 10px 10px 55px;
+  padding: 0px 10px 10px 120px;
 }
 
 .nav > .nav-btn {
@@ -34,7 +34,7 @@ body {
 .nav > .nav-links {
   display: inline;
   float: right;
-  padding-right: 70px;
+  padding-right: 120px;
 }
 
 .nav > .nav-links > a {

@@ -15,7 +15,7 @@
     text-align: right;
     padding-top: 70px;
     padding-bottom: 85px;
-    padding-right: 120px;
+    /*padding-right: 120px;*/
 }
 .radio-content img {
     width: 120px;
@@ -66,9 +66,13 @@
     background-color: purple;
     padding: 60px;
 }
+.advice-01-card {
+    font-size: 20px;
+}
 .advice-01-card img {
-    width: 75px;
+    width: 90px;
     padding-right: 10px;
+    padding-top:10px;
 }
 .advice-01-card h3 {
    margin: 0; 
@@ -127,6 +131,9 @@
 }
 
 /* ADVICE 0Z  */
+.advice-02-card {
+    font-size: 20px;
+}
 .advice-02 {
     background: url('../images/backgrounds/conseil2.jpg') no-repeat center center;
     background-size: cover;
@@ -137,8 +144,9 @@
     padding: 60px;
 }
 .advice-02-card img {
-    width: 75px;
+    width: 90px;
     padding-right: 10px;
+    padding-top:10px;
 }
 .advice-02-card h3 {
    margin: 0; 
@@ -177,6 +185,9 @@
 }
 
 /* ADVICE 03 */
+.advice-03-card {
+    font-size: 20px;
+}
 .advice-03 {
     background: url('../images/backgrounds/conseil3.jpg') no-repeat center center;
     background-size: cover;

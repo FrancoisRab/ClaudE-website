@@ -16,7 +16,7 @@
     text-align: right;
     padding-top: 70px;
     padding-bottom: 85px;
-    padding-right: 120px;
+    /*padding-right: 120px;*/
 }
 .agency-content img {
     width: 120px;
@@ -82,7 +82,7 @@
     background: url('../images/backgrounds/nosexpertises.jpg') no-repeat center center;
     background-size: cover;
     color: white;
-    padding: 25px 0px 60px 0px;
+    padding: 25px 0px 50px 0px;
     letter-spacing: 1px;
 }
 .expertise h3 {
@@ -93,10 +93,14 @@
 .expertise p {
     margin-top: 0;
 }
+.expertise-endline {
+    padding-top: 45px;
+    letter-spacing: 2px;
+}
 
 /* DEVISE */
 .devise {
-    color: white;
+    color: black;
     background: url('../images/backgrounds/fond_rec21_agence.jpg') no-repeat center center fixed;
     background-size: cover;
     padding: 25px 0px 60px 0px;
