@@ -27,9 +27,10 @@
 .radio-content hr {
     height: 4px;
     border-radius: 10px;
-    background-color: black;
+    background-color: white;
     margin-right: 0px;
     width: 80px;
+    border-color: transparent;
 }
 .radio-content h3 {
     letter-spacing: 2px;
