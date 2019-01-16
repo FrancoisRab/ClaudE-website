@@ -1,8 +1,8 @@
 /* RADIO HEADER */
 .radio-header {
     background: url('../images/backgrounds/fond_rec21_radio.jpg') no-repeat center center fixed;
-    color: white;
     background-size: cover;
+    color: white;
     height: 70vh;
 }
 .radio-header-content {
@@ -57,14 +57,15 @@
 }
 
 /* ADVICE 01  */
+.advice-01-header {
+    background: url('../images/backgrounds/conseil1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    padding: 60px;
+}
 .advice-01 {
     display: flex;
-    background: url('../images/backgrounds/conseil1.jpg') no-repeat center center;
-    background-size: cover;
     justify-content: center;
     align-items: center;
-    background-color: purple;
-    padding: 60px;
 }
 .advice-01-card {
     font-size: 20px;
@@ -134,14 +135,16 @@
 .advice-02-card {
     font-size: 20px;
 }
-.advice-02 {
-    background: url('../images/backgrounds/conseil2.jpg') no-repeat center center;
+
+.advice-02-header {
+    background: url('../images/backgrounds/conseil2.jpg') no-repeat center center fixed;
     background-size: cover;
+    padding: 60px;
+}
+.advice-02 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: purple;
-    padding: 60px;
 }
 .advice-02-card img {
     width: 90px;
@@ -185,17 +188,18 @@
 }
 
 /* ADVICE 03 */
+.advice-03-header {
+    background: url('../images/backgrounds/conseil3.jpg') no-repeat center center fixed;
+    background-size: cover;
+    padding: 60px;
+}
 .advice-03-card {
     font-size: 20px;
 }
 .advice-03 {
-    background: url('../images/backgrounds/conseil3.jpg') no-repeat center center;
-    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: purple;
-    padding: 60px;
 }
 
 @media (max-width: 800px) {
