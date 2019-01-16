@@ -58,7 +58,7 @@
 
 /* ADVICE 01  */
 .advice-01-header {
-    background: url('../images/backgrounds/conseil1.jpg') no-repeat center center fixed;
+    background: url('../images/backgrounds/background-advice.jpg') no-repeat center center fixed;
     background-size: cover;
     padding: 60px;
 }
@@ -137,7 +137,7 @@
 }
 
 .advice-02-header {
-    background: url('../images/backgrounds/conseil2.jpg') no-repeat center center fixed;
+    background: url('../images/backgrounds/background-advice.jpg') no-repeat center center fixed;
     background-size: cover;
     padding: 60px;
 }
@@ -189,7 +189,7 @@
 
 /* ADVICE 03 */
 .advice-03-header {
-    background: url('../images/backgrounds/conseil3.jpg') no-repeat center center fixed;
+    background: url('../images/backgrounds/background-advice.jpg') no-repeat center center fixed;
     background-size: cover;
     padding: 60px;
 }
