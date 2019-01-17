@@ -232,8 +232,9 @@
 }
 
 .work-together h3 {
-  letter-spacing: 2px;
-  padding-bottom: 20px;
+    font-size: 22px;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
 }
 
 .work-together p {

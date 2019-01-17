@@ -68,7 +68,7 @@
 .agency-skills-card-content-title {
     display: flex;
     justify-content: start;
-    align-items: first baseline;
+    align-items: center;
 }
 .agency-skills-card-content-img-2 {
     display: block;
@@ -92,6 +92,9 @@
 }
 .expertise p {
     margin-top: 0;
+}
+.expertise-hashtags-p {
+    font-size: 23px;
 }
 .expertise-endline {
     padding-top: 45px;
@@ -186,9 +189,15 @@
 
 /* WORK TOGETHER */ 
 .agence-work-together {
-    padding: 60px;
+    padding: 60px 60px 20px 60px;
     background: url('../images/backgrounds/fond_rec21_agence.jpg') no-repeat center center fixed;
     background-size: cover;
+}
+.agence-work-together p {
+    padding-bottom: 20px;
+}
+.agence-work-together h3 {
+    font-size: 22px;
 }
 
 
