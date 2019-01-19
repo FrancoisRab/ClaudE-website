@@ -104,7 +104,7 @@
 /* DEVISE */
 .devise {
     color: black;
-    background: url('../images/backgrounds/fond_rec21_agence.jpg') no-repeat center center fixed;
+    background: url('../images/backgrounds/fond_rec21_agence_2.jpg') no-repeat center center fixed;
     background-size: cover;
     padding: 25px 0px 60px 0px;
     letter-spacing: 1px;
@@ -189,7 +189,7 @@
 
 /* WORK TOGETHER */ 
 .agence-work-together {
-    padding: 60px 60px 20px 60px;
+    padding: 60px;
     background: url('../images/backgrounds/fond_rec21_agence.jpg') no-repeat center center fixed;
     background-size: cover;
 }
