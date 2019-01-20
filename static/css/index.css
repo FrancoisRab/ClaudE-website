@@ -70,7 +70,6 @@
 
 .agency p {
     letter-spacing: 2px;
-    font-size: 18px;
 }
 
 .agency-image-logo {
@@ -89,7 +88,7 @@
 
 .agency-solo-card {
   padding: 30px 50px;
-  width: 480px;
+ /* width: 480px;*/
 }
 
 /* HASHTAGS */
