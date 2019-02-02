@@ -204,6 +204,10 @@
 }
 
 @media (max-width: 800px) {
+    .radio-header {
+        background: url('../images/backgrounds/fond_rec21_radio_mobile.jpg') no-repeat center center fixed;
+        background-size: cover;
+    }
     .radio-header-content {
         padding-top: 18vh;
     }

@@ -203,6 +203,18 @@
 
 /* MOBILE  */
 @media (max-width: 800px) {
+    .agency-header {
+        background: url('../images/backgrounds/fond_rec21_agence_mobile.jpg') no-repeat center center fixed;
+        background-size: cover;
+    }
+    .devise {
+        background: url('../images/backgrounds/fond_rec21_agence_2_mobile.jpg') no-repeat center center fixed;
+        background-size: cover;
+    }
+    .agence-work-together {
+        background: url('../images/backgrounds/fond_rec21_agence_mobile.jpg') no-repeat center center fixed;
+        background-size: cover;
+    }
     .agency-header-content{
         width: 300px;
     }
