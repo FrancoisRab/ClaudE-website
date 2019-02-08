@@ -246,21 +246,20 @@
 
 @media (max-width: 800px) {
     .wrapper-header {
-        background: url('../images/backgrounds/fond_rec21_accueil_mobile.jpg') no-repeat center center fixed;
-        background-size: cover;
+        background: url('../images/backgrounds/fond_rec21_accueil_mobile.jpg') repeat 0 0;
+        background-color: RGBA(247, 251, 254, 1.00);
     }
     .hashtags {
-        background: url('../images/backgrounds/fond_rec21_accueil_mobile.jpg') no-repeat center center fixed;
-        background-size: cover;
+        background: url('../images/backgrounds/fond_rec21_accueil_mobile.jpg') repeat 0 0;
+        background-color: RGBA(247, 251, 254, 1.00);
     }
-
     .presentation-background {
-        background: url('../images/backgrounds/fond_rec21_accueil_mobile.jpg') no-repeat center center fixed;
-        background-size: cover;
+        background: url('../images/backgrounds/fond_rec21_accueil_mobile.jpg') repeat 0 0;
+        background-color: RGBA(247, 251, 254, 1.00);
     }
     .citation {
-        background: url('../images/backgrounds/fond_rec21_accueil_mobile.jpg') no-repeat center center fixed;
-        background-size: cover;
+        background-color: RGBA(247, 251, 254, 1.00);
+        background: url('../images/backgrounds/fond_rec21_accueil_mobile.jpg') repeat 0 0;
     }
     .header-content {
         width: 278px;
