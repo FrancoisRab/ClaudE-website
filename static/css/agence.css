@@ -70,7 +70,11 @@
     justify-content: start;
     align-items: center;
 }
+.agency-skills-card-content-img {
+    width: 30%;
+}
 .agency-skills-card-content-img-2 {
+    width: 25%;
     display: block;
 }
 .agency-skills-card-content-title h3 {
