@@ -71,10 +71,10 @@
     align-items: center;
 }
 .agency-skills-card-content-img {
-    width: 30%;
+    width: 25%;
 }
 .agency-skills-card-content-img-2 {
-    width: 25%;
+    width: 30%;
     display: block;
 }
 .agency-skills-card-content-title h3 {
@@ -235,10 +235,10 @@
         width: 320px;
     }
     .agency-skills-card-content-img {
-        width: 100%;
+        display: none;
     }
     .agency-skills-card-content-img-2 {
-        display: none;
+        width: 100%;
     }
     .agency-whos-content {
         width: 100%;
