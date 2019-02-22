@@ -208,16 +208,16 @@
 /* MOBILE  */
 @media (max-width: 800px) {
     .agency-header {
-        background: url('../images/backgrounds/fond_rec21_agence_mobile.jpg') repeat 0 0;
-        background-color: RGBA(247, 251, 254, 1.00);
+        background: url('../images/backgrounds/fond_rec21_agence_mobile.jpg') no-repeat center center fixed;
+        background-size: cover;
     }
     .devise {
-        background-color: RGBA(247, 251, 254, 1.00);
-        background: url('../images/backgrounds/fond_rec21_agence_mobile.jpg') repeat 0 0;
+        background-size: cover;
+        background: url('../images/backgrounds/fond_rec21_agence_mobile.jpg') no-repeat center center fixed;
     }
     .agence-work-together {
-        background-color: RGBA(247, 251, 254, 1.00);
-        background: url('../images/backgrounds/fond_rec21_agence_mobile.jpg') repeat 0 0;
+        background-size: cover;
+        background: url('../images/backgrounds/fond_rec21_agence_mobile.jpg') no-repeat center center fixed;
     }
     .agency-header-content{
         width: 300px;
