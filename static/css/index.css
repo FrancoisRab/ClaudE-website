@@ -220,6 +220,11 @@
 .citation h2 {
   font-size: 20px;
 }
+
+.citation span {
+	font-size: 12px;
+}
+
 #quote-size {
   font-size: 25px;
 }
