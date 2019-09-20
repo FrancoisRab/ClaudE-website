@@ -126,6 +126,9 @@
     margin: 0 auto;
     padding: 60px 0px;
 }
+.agency-whos-content img {
+    width: 25%;
+}
 .agency-whos-content h3 {
     font-size: 20px;
     margin-bottom: -20px;
@@ -242,6 +245,9 @@
     }
     .agency-whos-content {
         width: 100%;
+    }
+    .agency-whos-content img {
+        width: 50%;
     }
     .agency-whos-content-width {
         width: 90%;
